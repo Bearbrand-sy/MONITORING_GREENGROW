@@ -8,8 +8,70 @@
         body {
             font-family: 'DM Sans', sans-serif;
             color: var(--text-primary);
-            min-height: 100vh;
+            min-height: 82.5vh;
             display: flex;
+        }
+
+        .left-content{
+            flex: 1;
+            background-color: darkgreen;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 52px;
+            min-height: 82.5vh;
+        }
+
+        .right-content{
+            width: 40rem;
+            background-color: var(--card-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 52px;
+            min-height: 82.5vh;
+        }
+
+        .card{
+            width: 100%;
+            max-width: 340px;
+        }
+
+        .icon{
+            font-size: 50px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .field{
+            margin-bottom: 20px;
+        }
+
+        .field label{
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: black;
+            margin-bottom: 7px;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        .input-wrap{
+            position: relative;
+        }
+
+        .field input{
+            width: 100%;
+            padding: 12px 14px 12px 42px;
+            border: 1px solid black;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 14px;
+            outline: none;
+
         }
     </style>
 </head>
